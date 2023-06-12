@@ -1,0 +1,160 @@
+
+		*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        :root{
+            --cor-number0: #083448;
+            --cor-number1: #c2c3d1;
+            --cor-number2: #205f97;
+        }
+
+		body, html {
+			margin: 0;
+			font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+			color: #777;
+			height: 100%;
+		}
+
+		.conteudo {
+			color: #777;
+			background-color: white;
+			text-align: justify;
+			padding: 50px 80px;
+		}
+
+        header,
+		footer{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 100%;
+            height: 6rem;
+        }
+
+        .logo{
+            width: 6rem;
+            height: 100%;
+        }
+
+        .nav{
+            display: flex;
+            gap: 3rem;
+        }
+        .nav-link{
+            padding: 0.01rem 0.5rem;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 1.5rem;
+            border: 0.2rem solid var(--cor-number0);
+            border-radius: 1rem;
+            color: var(--cor-number0);
+        }
+
+		.reservas{
+			box-shadow: 0.2rem 0.2rem 0.1rem var(--cor-number2);
+		}
+		.reservas,
+        .nav-link:hover{
+            background-color: var(--cor-number0);
+            color: #fff;
+        }
+
+
+		h3 {
+			text-transform: uppercase;
+			color: #111;
+			text-align: center;
+		}
+
+		p{
+			margin-bottom: 20px;
+		}
+
+		.rodape{
+			display: flex;
+			flex-direction: column;
+			height: 12rem;
+		}
+
+		.invite{
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			width: 100%;
+			padding-top: 2%;
+		}
+
+		.invite-esq{
+			display: flex;
+			align-items: center;
+			padding: 2rem 2rem;
+		}
+
+		.invite-p{
+			width: 15rem;
+		}
+
+		.contato-bottom{
+			display: flex;
+			align-items: center;
+			gap: 2%;
+		}
+
+		.contato-img{
+			align-self: flex-start;
+			width: 1.5rem;
+			height: 1.5rem;
+			padding-top: 1%;
+		}
+		/* Efeito Parallax
+		-------------------------------*/
+		.caixa0, .caixa1, .caixa2, .caixa3, .caixa4 {
+			position: relative;
+			height: 100%;
+			opacity: 0.9;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			background-attachment: fixed; 
+		}
+
+        .caixa0{
+            height: 4rem;
+            background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/02/9b/da/cd/getlstd-property-photo.jpg?w=1200&h=-1&s=1");
+        }
+
+		.caixa1 {
+			background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/02/9b/da/cd/getlstd-property-photo.jpg?w=1200&h=-1&s=1");
+		}
+
+		.caixa2 {
+			background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/c6/e5/5c/piscina.jpg?w=1200&h=-1&s=1");
+		}
+
+		.caixa3 {
+			background-image: url("https://img.vistarooms.com/space/USi5FL1PlVhNHrbpTZCYw50kvvU88vdjKpIfVpFD.jpeg");
+		}
+
+		.caixa4 {
+			background-image: url(https://w.forfun.com/fetch/85/856ece275963e5366ca72e7858b9194e.jpeg);
+		}
+
+		.conteudo-titulo {
+			position: absolute;
+			left: 0;
+			top: 45%;
+			width: 100%;
+			text-align: center;
+		}
+
+		.conteudo-titulo span.titulo {
+			color: #fff;
+			background-color: #111;
+			padding: 18px;
+			font-size: 25px;
+			letter-spacing: 5px;
+			text-transform: uppercase;
+		}
