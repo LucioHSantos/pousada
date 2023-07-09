@@ -46,6 +46,8 @@
             gap: 3rem;
 			padding-right: 8%;
         }
+
+	
         .nav-link{
             padding: 0.01rem 0.5rem;
             text-decoration: none;
@@ -58,6 +60,7 @@
 
 		.reservas{
 			box-shadow: 0.2rem 0.2rem 0.1rem var(--cor-number2);
+			
 		}
 		.reservas,
         .nav-link:hover{
@@ -68,12 +71,12 @@
 
 		h3 {
 			text-transform: uppercase;
-			color: #111;
 			text-align: center;
 		}
 
 		p{
 			margin-bottom: 20px;
+
 		}
 
 		.rodape{
@@ -155,7 +158,7 @@
 
 		.conteudo-titulo span.titulo {
 			color: #fff;
-			background-color: #111;
+			background-color: #000000;
 			padding: 1rem;
 			font-size: 2rem;
 			letter-spacing: 0.5rem;

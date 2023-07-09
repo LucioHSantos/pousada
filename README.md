@@ -1,13 +1,18 @@
 # Projeto Site Pousada
 
-## Site funcional de pousada usando HTML CSS# 
-<hr>
+## Site de pousada utilizando html e css com efeito de paralax para dar uma imagem limpa, convidativa e bonita.
 
-![home](../pousada/imagens/logo-pousada.png)
+Para visualizar o deploy deste projeto por favor acesse: 
+```bash
+  https://pousadabemestar.netlify.app/
+```
 
-<hr>
 
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
-[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
+![](https://img.shields.io/badge/HTML_-%237E1600)
+![](https://img.shields.io/badge/CSS_-%2306879B)
+
+## Screenshots
+
+![](https://i.imgur.com/Mi03lvw.png)
